@@ -1,11 +1,8 @@
 import React from "react";
-import PropTypes from "prop-types";
 
 export const Footer = props => {
-	let myFooter = <div className="bg-secondary">{props.footerContent}</div>;
+	let myFooter = (
+		<p className="bg-secondary">Copyright of your website, 2020</p>
+	);
 	return myFooter;
-};
-
-Footer.PropTypes = {
-	footerContent: PropTypes.string
 };
