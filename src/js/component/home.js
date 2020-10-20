@@ -8,7 +8,7 @@ import { Button } from "./button.jsx";
 export function Home() {
 	return (
 		<div className="text-center mt-5">
-			{/* <Button textButton="" classContent=""/> */}
+			<Button textButton="Click button" classContent="btn btn-primary" />
 		</div>
 	);
 }
