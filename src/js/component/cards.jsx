@@ -34,7 +34,7 @@ export const Cards = props => {
 	];
 	let mapFunction = myCardsContent.map((item, index) => {
 		return (
-			<div className="card m-1" key={index}>
+			<div className="card ml-4 mr-4 mt-4" key={index}>
 				<img
 					src={item.imgUrl}
 					className="card-img-top p-0"

@@ -1,6 +1,10 @@
 @import "~bootstrap/scss/bootstrap.scss";
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
 
+.body {
+    background-color: #EBFFEB;
+}
+
 .cardsContainer {
     width: 90%;
 }
@@ -30,4 +34,44 @@
 .btn:active {
     background-color: #FF4747;
     border: 2px solid #FF4747;
+}
+.navbar {
+    background-color: rgba(255, 92, 92, 0.5);
+    font-family: 'Montserrat', sans-serif;
+}
+a {
+    color: white;
+    font-weight: bold;
+}
+a:hover {
+    color:#FF4747;
+}
+.jumbotron {
+    background-image: url("https://images.pexels.com/photos/3851696/pexels-photo-3851696.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 32rem;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.jumbotron h1 {
+    background-color: rgba(255, 92, 92, 0.7);
+    text-align: left;
+    width: fit-content;
+    font-weight: bold;
+    padding: 0 0.5rem 0 0.5rem;
+    border-radius: 0.3rem;
+}
+.jumbotron p {
+    background-color: rgba(255, 92, 92, 0.5);
+    text-align: left;
+    width: fit-content;
+    padding: 0 0.5rem 0 0.5rem;
+    border-radius: 0.3rem;
+}
+.footer {
+    text-align: center;
+    color:#FF4747;
+    margin-top: 3rem;
 }

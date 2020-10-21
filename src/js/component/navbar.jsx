@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 export function Navbar(props) {
 	return (
-		<nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+		<nav className="navbar navbar-expand-lg">
 			<a className="navbar-brand" href={props.urlNB}>
 				{props.navbarName}
 			</a>
