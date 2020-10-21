@@ -1,15 +1,21 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
 
 .cardsContainer {
     width: 90%;
 }
 .card {
     width: 18rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-title {
+    font-weight: bold;
 }
 .btn {
     background-color: #FF7070;
     border: 2px solid #FF4747;
     color: white;
+    font-weight: bold;
 }
 .btn:hover {
     background-color: #FF4747;

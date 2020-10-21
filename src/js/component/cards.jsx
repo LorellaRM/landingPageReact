@@ -14,19 +14,22 @@ export const Cards = props => {
 			imgUrl:
 				"https://images.pexels.com/photos/4636/person-woman-eyes-face.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 			cardTitle: "SKINCARE",
-			cardDescription: "Skincare text"
+			cardDescription:
+				"Do you want a scandal skin? Or the necessary products to follow the Korean cleaning routine? We guide you on your adventure."
 		},
 		{
 			imgUrl:
 				"https://images.pexels.com/photos/4813343/pexels-photo-4813343.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 			cardTitle: "NAILS",
-			cardDescription: "Nails text"
+			cardDescription:
+				"Whether you want to wear your nails to the latest trend or if you want a classic French manicure, just click here."
 		},
 		{
 			imgUrl:
 				"https://images.pexels.com/photos/794064/pexels-photo-794064.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
 			cardTitle: "HAIRCARE",
-			cardDescription: "Haircare text"
+			cardDescription:
+				"Straight, curly, wavy, short, dyed, natural ... As you like. Your hairstyle defines how you are, take care of it."
 		}
 	];
 	let mapFunction = myCardsContent.map((item, index) => {
