@@ -1,13 +1,33 @@
 @import "~bootstrap/scss/bootstrap.scss";
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;600&display=swap");
 
-/* 
-
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
-
-*/
+.cardsContainer {
+    width: 90%;
+}
+.card {
+    width: 18rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.card-title {
+    font-weight: bold;
+}
+.btn {
+    background-color: #FF7070;
+    border: 2px solid #FF4747;
+    color: white;
+    font-weight: bold;
+}
+.btn:hover {
+    background-color: #FF4747;
+    border: 2px solid #FF4747;
+    box-shadow: 0 0 0 0.2rem rgba(255, 92, 92, 0.5);
+    color: white;
+}
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 92, 92, 0.5);
+    border-color: #FF7070;
+}
+.btn:active {
+    background-color: #FF4747;
+    border: 2px solid #FF4747;
+}
