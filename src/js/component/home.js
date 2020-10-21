@@ -10,7 +10,7 @@ import { Button } from "./button.jsx";
 export function Home() {
 	return (
 		<div className="container col-12">
-            <Footer footerContent="Hello I'm the text of the footer" />
+			<Footer footerContent="Hello I'm the text of the footer" />
 		</div>
 	);
 }
