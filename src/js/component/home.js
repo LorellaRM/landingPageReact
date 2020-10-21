@@ -7,7 +7,7 @@ import { Navbar } from "./navbar.jsx";
 //create your first component
 export function Home() {
 	return (
-		<div className="container-fluid p-0">
+		<div className="container col-12">
 			<Navbar
 				navbarName="MakeUP"
 				urlNB=""
