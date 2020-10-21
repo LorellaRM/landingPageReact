@@ -40,10 +40,7 @@ export const Cards = props => {
 				<div className="card-body">
 					<h5 className="card-title">{item.cardTitle}</h5>
 					<p className="card-text">{item.cardDescription}</p>
-					<Button
-						textButton="See more"
-						classContent="btn btn-primary"
-					/>
+					<Button textButton="See more" classContent="btn" />
 				</div>
 			</div>
 		);

@@ -6,3 +6,22 @@
 .card {
     width: 18rem;
 }
+.btn {
+    background-color: #FF7070;
+    border: 2px solid #FF4747;
+    color: white;
+}
+.btn:hover {
+    background-color: #FF4747;
+    border: 2px solid #FF4747;
+    box-shadow: 0 0 0 0.2rem rgba(255, 92, 92, 0.5);
+    color: white;
+}
+.btn:focus {
+    box-shadow: 0 0 0 0.2rem rgba(255, 92, 92, 0.5);
+    border-color: #FF7070;
+}
+.btn:active {
+    background-color: #FF4747;
+    border: 2px solid #FF4747;
+}
