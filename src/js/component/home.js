@@ -8,7 +8,7 @@ import rigoImage from "../../img/rigo-baby.jpg";
 export function Home() {
 	return (
 		<div className="container col-12">
-			<HeaderJum />
+			<HeaderJum topTitle="The Best MakeUp" text="New style of live" />
 		</div>
 	);
 }
